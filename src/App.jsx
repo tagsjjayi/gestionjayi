@@ -68,7 +68,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 const appId = 'business-admin-system';
-const ADMIN_EMAIL = 'admin@negocio.com'; 
+const ADMIN_EMAIL = 'alexvillamzair1@gmail.com'; 
 
 // --- Componentes de UI Reutilizables ---
 const Card = ({ children, className = "" }) => (
